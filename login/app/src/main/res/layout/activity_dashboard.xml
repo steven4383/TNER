@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="32px"
+    android:paddingLeft="32px"
+    android:paddingRight="32px"
+    android:paddingTop="32px"
+    tools:context="com.example.login.DashboardActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="370dp"
+        android:layout_height="183dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center|top"
+        android:text=" Login Successful, "
+        android:textColor="#39DCA8"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@id/textView1"
+        android:background="#121111"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:text=" LOGOUT"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="179dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@id/textView1"
+        android:layout_alignBottom="@id/textView1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:background="#121010"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:text="NEXT"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9C4">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="331dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="false"
+        android:background="#F6C3D5"
+        android:gravity="center"
+        android:shadowColor="#F30757"
+        android:text="QUALIFICATION"
+        android:textColor="#2E2121"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/nnnn"
+        android:layout_width="299dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:hint=" NAME"
+        android:textColor="#100F0F"
+        android:textColorHint="#0C0C0C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <EditText
+        android:id="@+id/edittxt1"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/textView4"
+        android:layout_alignParentBottom="true"
+        android:background="#F0F4C3"
+        android:gravity="center"
+        android:hint="Name of degree"
+        android:textColor="#090909"
+        android:textColorHint="#100F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <EditText
+        android:id="@+id/edittxt2"
+        android:layout_width="338dp"
+        android:layout_height="44dp"
+        android:background="#F0F4C3"
+        android:gravity="center"
+        android:hint="Name of college/university"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0C0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <EditText
+        android:id="@+id/edittxt3"
+        android:layout_width="197dp"
+        android:layout_height="45dp"
+        android:background="#F0F4C3"
+        android:gravity="center"
+        android:hint="Percentage"
+        android:maxLength="3"
+        android:numeric="decimal"
+        android:textColor="#131313"
+        android:textColorHint="#100F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <EditText
+        android:id="@+id/qual"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:background="#F9FBE7"
+        android:gravity="center"
+        android:hint=" SSLC/HSS/UG/PG"
+        android:textColor="#130F0F"
+        android:textColorHint="#040303"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="241dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:hint="PHONE NUMBER"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="#191616"
+        android:textColorHint="#131313"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="151dp"
+        android:layout_height="57dp"
+        android:background="#4FC3F7"
+        android:text="NEXT"
+        android:textColor="#F4ECEC"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

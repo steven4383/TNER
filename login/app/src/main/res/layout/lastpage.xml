@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/tku"
+        android:layout_width="345dp"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/whatsapp_image_2021_12_13_at_9_13_11_pm" />
+
+    <TextView
+        android:id="@+id/tq"
+        android:layout_width="348dp"
+        android:layout_height="167dp"
+        android:background="#A0F68D"
+        android:gravity="center"
+        android:shadowColor="#4DB6AC"
+        android:text="THE  ONLY  WAY  TO  DO  GREAT  WORK  IS TO LOVE  WHAT YOU DO ...."
+        android:textColor="#D50000"
+        android:textColorHighlight="#AA00FF"
+        android:textColorHint="#F3B2B2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="341dp"
+        android:layout_height="84dp"
+        android:gravity="center"
+        android:text="WISH  YOU  ALL  SUCCESS !!!"
+        android:textColor="#F8125B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

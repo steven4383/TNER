@@ -1,2 +1,2 @@
-# TNER-
+# TNER
 Tamilnadu  employee registration android  application
